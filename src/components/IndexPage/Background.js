@@ -18,11 +18,11 @@ const Background = styled.div`
   }
 
   @media (max-width: 379px) {
-    height: 440px;
+    height: 400px;
   }
 
   @media (max-width: 366px) {
-    height: 460px;
+    height: 430px;
   }
 `;
 

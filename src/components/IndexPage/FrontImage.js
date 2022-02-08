@@ -26,6 +26,13 @@ const FrontImage = styled.div`
     
     & > div {
       max-height: 100%;
+      max-width: 100%;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain !important;
+      }
     }
   }
 `;
