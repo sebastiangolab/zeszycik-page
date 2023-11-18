@@ -1,5 +1,5 @@
 import React from "react";
-import Seo from "components/Seo"
+import Seo from "components/Seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Container from "components/Container";
 import Page from "components/Page";
@@ -25,9 +25,11 @@ const IndexPage = () => (
         <Row>
           <FrontImage>
             <StaticImage
-              src="../images/app-image.png"
+              src="../images/app-image@2x.png"
               alt="zeszycik"
               placeholder="none"
+              width={413}
+              height={608}
             />
           </FrontImage>
 
@@ -56,17 +58,21 @@ const IndexPage = () => (
           <ButtonsContainer>
             <AppBlock to="https://apps.apple.com/us/app/zeszycik/id1602686223">
               <StaticImage
-                src="../images/appstore-button.png"
+                src="../images/appstore-button@2x.png"
                 alt="app store"
                 placeholder="none"
+                width={380}
+                height={134}
               />
             </AppBlock>
 
             <AppBlock to="https://play.google.com/store/apps/details?id=com.sebagolab.Zeszycik">
               <StaticImage
-                src="../images/googleplay-button.png"
+                src="../images/googleplay-button@2x.png"
                 alt="google play"
                 placeholder="none"
+                width={380}
+                height={134}
               />
             </AppBlock>
           </ButtonsContainer>

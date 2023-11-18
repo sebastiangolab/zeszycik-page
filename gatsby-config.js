@@ -3,7 +3,7 @@ module.exports = {
     title: `Zapisuj długi swoich znajomych | Zeszycik`,
     description: `Za pomocą aplikacji możesz w bardzo prosty i szybki sposób spisywać i edytować należności swoich znajomych.`,
     author: `@sebastiangolab`,
-    siteUrl: `https://sebastiangolab.pl/zeszycik/`,
+    siteUrl: `https://zeszycik.sebastiangolab.pl/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

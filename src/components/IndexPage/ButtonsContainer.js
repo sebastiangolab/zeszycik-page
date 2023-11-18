@@ -9,7 +9,7 @@ const ButtonsContainer = styled.div`
     margin-top: 30px;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 767px) {
     flex-direction: column;
   }
 `;
